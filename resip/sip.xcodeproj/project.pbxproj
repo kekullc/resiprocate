@@ -2304,6 +2304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F79734086CBA1E00AF4EDF /* Build configuration list for PBXNativeTarget "resiprocate" */;
 			buildPhases = (
+				50B1B11F18B6742900DA1D0D /* ShellScript */,
 				12F79730086CBA1E00AF4EDF /* Headers */,
 				12F79731086CBA1E00AF4EDF /* Sources */,
 				12F79732086CBA1E00AF4EDF /* Frameworks */,
@@ -2380,6 +2381,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50B1B11F18B6742900DA1D0D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -d $SRCROOT/../contrib/openssl ]; then\n\nmkdir -p $SRCROOT/../contrib/openssl\npushd $SRCROOT/../contrib/openssl\nln -s /usr/include/openssl openssl\npopd\n\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12F79731086CBA1E00AF4EDF /* Sources */ = {
