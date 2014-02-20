@@ -14,28 +14,6 @@
 		123B4D53089871F70049A5B9 /* IdentityHandler.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 123B4D52089871F70049A5B9 /* IdentityHandler.cxx */; };
 		123B4D55089872040049A5B9 /* EncryptionRequest.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 123B4D54089872040049A5B9 /* EncryptionRequest.cxx */; };
 		123B4D570898721D0049A5B9 /* DumFeatureMessage.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 123B4D560898721D0049A5B9 /* DumFeatureMessage.cxx */; };
-		124D78B2086CC36600BCA5A9 /* ares__close_sockets.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D789C086CC36600BCA5A9 /* ares__close_sockets.c */; };
-		124D78B3086CC36600BCA5A9 /* ares__get_hostent.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D789D086CC36600BCA5A9 /* ares__get_hostent.c */; };
-		124D78B4086CC36600BCA5A9 /* ares__read_line.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D789E086CC36600BCA5A9 /* ares__read_line.c */; };
-		124D78B5086CC36600BCA5A9 /* ares_destroy.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D789F086CC36600BCA5A9 /* ares_destroy.c */; };
-		124D78B6086CC36600BCA5A9 /* ares_expand_name.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A0086CC36600BCA5A9 /* ares_expand_name.c */; };
-		124D78B7086CC36600BCA5A9 /* ares_fds.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A1086CC36600BCA5A9 /* ares_fds.c */; };
-		124D78B8086CC36600BCA5A9 /* ares_free_errmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A2086CC36600BCA5A9 /* ares_free_errmem.c */; };
-		124D78B9086CC36600BCA5A9 /* ares_free_hostent.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A3086CC36600BCA5A9 /* ares_free_hostent.c */; };
-		124D78BA086CC36600BCA5A9 /* ares_free_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A4086CC36600BCA5A9 /* ares_free_string.c */; };
-		124D78BB086CC36600BCA5A9 /* ares_gethostbyaddr.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A5086CC36600BCA5A9 /* ares_gethostbyaddr.c */; };
-		124D78BC086CC36600BCA5A9 /* ares_gethostbyname.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A6086CC36600BCA5A9 /* ares_gethostbyname.c */; };
-		124D78BD086CC36600BCA5A9 /* ares_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A7086CC36600BCA5A9 /* ares_init.c */; };
-		124D78BE086CC36600BCA5A9 /* ares_local.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A8086CC36600BCA5A9 /* ares_local.c */; };
-		124D78BF086CC36600BCA5A9 /* ares_mkquery.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78A9086CC36600BCA5A9 /* ares_mkquery.c */; };
-		124D78C0086CC36600BCA5A9 /* ares_parse_a_reply.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78AA086CC36600BCA5A9 /* ares_parse_a_reply.c */; };
-		124D78C1086CC36600BCA5A9 /* ares_parse_ptr_reply.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78AB086CC36600BCA5A9 /* ares_parse_ptr_reply.c */; };
-		124D78C2086CC36600BCA5A9 /* ares_process.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78AC086CC36600BCA5A9 /* ares_process.c */; };
-		124D78C3086CC36600BCA5A9 /* ares_query.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78AD086CC36600BCA5A9 /* ares_query.c */; };
-		124D78C4086CC36600BCA5A9 /* ares_search.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78AE086CC36600BCA5A9 /* ares_search.c */; };
-		124D78C5086CC36600BCA5A9 /* ares_send.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78AF086CC36600BCA5A9 /* ares_send.c */; };
-		124D78C6086CC36600BCA5A9 /* ares_strerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78B0086CC36600BCA5A9 /* ares_strerror.c */; };
-		124D78C7086CC36600BCA5A9 /* ares_timeout.c in Sources */ = {isa = PBXBuildFile; fileRef = 124D78B1086CC36600BCA5A9 /* ares_timeout.c */; };
 		124D792A086CC3CE00BCA5A9 /* ApiCheck.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78CA086CC3CE00BCA5A9 /* ApiCheck.cxx */; };
 		124D792B086CC3CE00BCA5A9 /* AresDns.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78CB086CC3CE00BCA5A9 /* AresDns.cxx */; };
 		124D792C086CC3CE00BCA5A9 /* Auth.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78CC086CC3CE00BCA5A9 /* Auth.cxx */; };
@@ -226,6 +204,26 @@
 		12BF59390895D5E600F7DD81 /* EncryptionManager.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF59380895D5E600F7DD81 /* EncryptionManager.cxx */; };
 		12BF593C0895D5FF00F7DD81 /* DumDecrypted.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF593A0895D5FF00F7DD81 /* DumDecrypted.cxx */; };
 		12BF59580895D7B800F7DD81 /* CertMessage.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF59570895D7B800F7DD81 /* CertMessage.cxx */; };
+		509715BF18B62CB4005F5041 /* ares__close_sockets.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715AB18B62CB4005F5041 /* ares__close_sockets.c */; };
+		509715C018B62CB4005F5041 /* ares__get_hostent.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715AC18B62CB4005F5041 /* ares__get_hostent.c */; };
+		509715C118B62CB4005F5041 /* ares__read_line.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715AD18B62CB4005F5041 /* ares__read_line.c */; };
+		509715C218B62CB4005F5041 /* ares_destroy.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715AE18B62CB4005F5041 /* ares_destroy.c */; };
+		509715C318B62CB4005F5041 /* ares_expand_name.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715AF18B62CB4005F5041 /* ares_expand_name.c */; };
+		509715C418B62CB4005F5041 /* ares_fds.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B018B62CB4005F5041 /* ares_fds.c */; };
+		509715C518B62CB4005F5041 /* ares_free_errmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B118B62CB4005F5041 /* ares_free_errmem.c */; };
+		509715C618B62CB4005F5041 /* ares_free_hostent.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B218B62CB4005F5041 /* ares_free_hostent.c */; };
+		509715C718B62CB4005F5041 /* ares_free_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B318B62CB4005F5041 /* ares_free_string.c */; };
+		509715C818B62CB4005F5041 /* ares_gethostbyaddr.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B418B62CB4005F5041 /* ares_gethostbyaddr.c */; };
+		509715C918B62CB4005F5041 /* ares_gethostbyname.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B518B62CB4005F5041 /* ares_gethostbyname.c */; };
+		509715CA18B62CB4005F5041 /* ares_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B618B62CB4005F5041 /* ares_init.c */; };
+		509715CB18B62CB4005F5041 /* ares_local.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B718B62CB4005F5041 /* ares_local.c */; };
+		509715CC18B62CB4005F5041 /* ares_mkquery.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B818B62CB4005F5041 /* ares_mkquery.c */; };
+		509715CD18B62CB4005F5041 /* ares_process.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715B918B62CB4005F5041 /* ares_process.c */; };
+		509715CE18B62CB4005F5041 /* ares_query.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715BA18B62CB4005F5041 /* ares_query.c */; };
+		509715CF18B62CB4005F5041 /* ares_search.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715BB18B62CB4005F5041 /* ares_search.c */; };
+		509715D018B62CB4005F5041 /* ares_send.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715BC18B62CB4005F5041 /* ares_send.c */; };
+		509715D118B62CB4005F5041 /* ares_strerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715BD18B62CB4005F5041 /* ares_strerror.c */; };
+		509715D218B62CB4005F5041 /* ares_timeout.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715BE18B62CB4005F5041 /* ares_timeout.c */; };
 		F80A8D4A12B2CA66002D37E0 /* FdPoll.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F80A8D4812B2CA66002D37E0 /* FdPoll.cxx */; };
 		F80A8D4B12B2CA66002D37E0 /* FdPoll.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F80A8D4912B2CA66002D37E0 /* FdPoll.hxx */; };
 		F8A057C7124D47D700112774 /* TcpConnection.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D7916086CC3CE00BCA5A9 /* TcpConnection.cxx */; };
@@ -369,10 +367,6 @@
 		F8DB1D850C56B9B800853E27 /* UsageUseException.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D1E0C56B9B800853E27 /* UsageUseException.hxx */; };
 		F8DB1D860C56B9B800853E27 /* UserAuthInfo.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D1F0C56B9B800853E27 /* UserAuthInfo.hxx */; };
 		F8DB1D870C56B9B800853E27 /* UserProfile.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D200C56B9B800853E27 /* UserProfile.hxx */; };
-		F8DB1D8E0C56B9EA00853E27 /* ares_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D890C56B9EA00853E27 /* ares_compat.h */; };
-		F8DB1D8F0C56B9EA00853E27 /* ares_dns.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D8A0C56B9EA00853E27 /* ares_dns.h */; };
-		F8DB1D900C56B9EA00853E27 /* ares_local.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D8B0C56B9EA00853E27 /* ares_local.h */; };
-		F8DB1D910C56B9EA00853E27 /* ares_private.h in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D8C0C56B9EA00853E27 /* ares_private.h */; };
 		F8DB1DC30C56CE1500853E27 /* AbstractFifo.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D920C56CE1500853E27 /* AbstractFifo.hxx */; };
 		F8DB1DC40C56CE1500853E27 /* AsyncID.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D930C56CE1500853E27 /* AsyncID.hxx */; };
 		F8DB1DC50C56CE1500853E27 /* BaseException.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1D940C56CE1500853E27 /* BaseException.hxx */; };
@@ -546,8 +540,6 @@
 		F8DB1F370C56CE9800853E27 /* Security.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E8B0C56CE9800853E27 /* Security.hxx */; };
 		F8DB1F380C56CE9800853E27 /* SecurityAttributes.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E8C0C56CE9800853E27 /* SecurityAttributes.hxx */; };
 		F8DB1F390C56CE9800853E27 /* SecurityTypes.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E8D0C56CE9800853E27 /* SecurityTypes.hxx */; };
-		F8DB1F3A0C56CE9800853E27 /* SelectInterruptor.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F8DB1E8E0C56CE9800853E27 /* SelectInterruptor.cxx */; };
-		F8DB1F3B0C56CE9800853E27 /* SelectInterruptor.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E8F0C56CE9800853E27 /* SelectInterruptor.hxx */; };
 		F8DB1F3C0C56CE9800853E27 /* SendData.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E900C56CE9800853E27 /* SendData.hxx */; };
 		F8DB1F3D0C56CE9800853E27 /* SERNonceHelper.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F8DB1E910C56CE9800853E27 /* SERNonceHelper.cxx */; };
 		F8DB1F3E0C56CE9800853E27 /* SERNonceHelper.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E920C56CE9800853E27 /* SERNonceHelper.hxx */; };
@@ -604,8 +596,6 @@
 		F8DB1F710C56CE9800853E27 /* WarningCategory.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1EC50C56CE9800853E27 /* WarningCategory.hxx */; };
 		F8DB1F740C56CE9800853E27 /* X509Contents.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F8DB1EC80C56CE9800853E27 /* X509Contents.cxx */; };
 		F8DB1F750C56CE9800853E27 /* X509Contents.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1EC90C56CE9800853E27 /* X509Contents.hxx */; };
-		F8DB1F760C56CE9800853E27 /* XMLCursor.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F8DB1ECA0C56CE9800853E27 /* XMLCursor.cxx */; };
-		F8DB1F770C56CE9800853E27 /* XMLCursor.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1ECB0C56CE9800853E27 /* XMLCursor.hxx */; };
 		F8DB1F7D0C56CEEC00853E27 /* Stun.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F8DB1F790C56CEEC00853E27 /* Stun.cxx */; };
 		F8DB1F7E0C56CEEC00853E27 /* Stun.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1F7A0C56CEEC00853E27 /* Stun.hxx */; };
 		F8DB1F7F0C56CEEC00853E27 /* Udp.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F8DB1F7B0C56CEEC00853E27 /* Udp.cxx */; };
@@ -650,28 +640,6 @@
 		123B4D52089871F70049A5B9 /* IdentityHandler.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IdentityHandler.cxx; path = dum/IdentityHandler.cxx; sourceTree = "<group>"; };
 		123B4D54089872040049A5B9 /* EncryptionRequest.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = EncryptionRequest.cxx; path = dum/EncryptionRequest.cxx; sourceTree = "<group>"; };
 		123B4D560898721D0049A5B9 /* DumFeatureMessage.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DumFeatureMessage.cxx; path = dum/DumFeatureMessage.cxx; sourceTree = "<group>"; };
-		124D789C086CC36600BCA5A9 /* ares__close_sockets.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares__close_sockets.c; path = ../contrib/ares/ares__close_sockets.c; sourceTree = SOURCE_ROOT; };
-		124D789D086CC36600BCA5A9 /* ares__get_hostent.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares__get_hostent.c; path = ../contrib/ares/ares__get_hostent.c; sourceTree = SOURCE_ROOT; };
-		124D789E086CC36600BCA5A9 /* ares__read_line.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares__read_line.c; path = ../contrib/ares/ares__read_line.c; sourceTree = SOURCE_ROOT; };
-		124D789F086CC36600BCA5A9 /* ares_destroy.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_destroy.c; path = ../contrib/ares/ares_destroy.c; sourceTree = SOURCE_ROOT; };
-		124D78A0086CC36600BCA5A9 /* ares_expand_name.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_expand_name.c; path = ../contrib/ares/ares_expand_name.c; sourceTree = SOURCE_ROOT; };
-		124D78A1086CC36600BCA5A9 /* ares_fds.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_fds.c; path = ../contrib/ares/ares_fds.c; sourceTree = SOURCE_ROOT; };
-		124D78A2086CC36600BCA5A9 /* ares_free_errmem.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_free_errmem.c; path = ../contrib/ares/ares_free_errmem.c; sourceTree = SOURCE_ROOT; };
-		124D78A3086CC36600BCA5A9 /* ares_free_hostent.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_free_hostent.c; path = ../contrib/ares/ares_free_hostent.c; sourceTree = SOURCE_ROOT; };
-		124D78A4086CC36600BCA5A9 /* ares_free_string.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_free_string.c; path = ../contrib/ares/ares_free_string.c; sourceTree = SOURCE_ROOT; };
-		124D78A5086CC36600BCA5A9 /* ares_gethostbyaddr.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_gethostbyaddr.c; path = ../contrib/ares/ares_gethostbyaddr.c; sourceTree = SOURCE_ROOT; };
-		124D78A6086CC36600BCA5A9 /* ares_gethostbyname.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_gethostbyname.c; path = ../contrib/ares/ares_gethostbyname.c; sourceTree = SOURCE_ROOT; };
-		124D78A7086CC36600BCA5A9 /* ares_init.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_init.c; path = ../contrib/ares/ares_init.c; sourceTree = SOURCE_ROOT; };
-		124D78A8086CC36600BCA5A9 /* ares_local.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_local.c; path = ../contrib/ares/ares_local.c; sourceTree = SOURCE_ROOT; };
-		124D78A9086CC36600BCA5A9 /* ares_mkquery.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_mkquery.c; path = ../contrib/ares/ares_mkquery.c; sourceTree = SOURCE_ROOT; };
-		124D78AA086CC36600BCA5A9 /* ares_parse_a_reply.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_parse_a_reply.c; path = ../contrib/ares/ares_parse_a_reply.c; sourceTree = SOURCE_ROOT; };
-		124D78AB086CC36600BCA5A9 /* ares_parse_ptr_reply.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_parse_ptr_reply.c; path = ../contrib/ares/ares_parse_ptr_reply.c; sourceTree = SOURCE_ROOT; };
-		124D78AC086CC36600BCA5A9 /* ares_process.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_process.c; path = ../contrib/ares/ares_process.c; sourceTree = SOURCE_ROOT; };
-		124D78AD086CC36600BCA5A9 /* ares_query.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_query.c; path = ../contrib/ares/ares_query.c; sourceTree = SOURCE_ROOT; };
-		124D78AE086CC36600BCA5A9 /* ares_search.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_search.c; path = ../contrib/ares/ares_search.c; sourceTree = SOURCE_ROOT; };
-		124D78AF086CC36600BCA5A9 /* ares_send.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_send.c; path = ../contrib/ares/ares_send.c; sourceTree = SOURCE_ROOT; };
-		124D78B0086CC36600BCA5A9 /* ares_strerror.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_strerror.c; path = ../contrib/ares/ares_strerror.c; sourceTree = SOURCE_ROOT; };
-		124D78B1086CC36600BCA5A9 /* ares_timeout.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = ares_timeout.c; path = ../contrib/ares/ares_timeout.c; sourceTree = SOURCE_ROOT; };
 		124D78CA086CC3CE00BCA5A9 /* ApiCheck.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ApiCheck.cxx; path = stack/ApiCheck.cxx; sourceTree = "<group>"; };
 		124D78CB086CC3CE00BCA5A9 /* AresDns.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AresDns.cxx; path = ../rutil/dns/AresDns.cxx; sourceTree = "<group>"; };
 		124D78CC086CC3CE00BCA5A9 /* Auth.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Auth.cxx; path = stack/Auth.cxx; sourceTree = "<group>"; };
@@ -865,6 +833,26 @@
 		12BF593A0895D5FF00F7DD81 /* DumDecrypted.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DumDecrypted.cxx; path = dum/DumDecrypted.cxx; sourceTree = "<group>"; };
 		12BF59570895D7B800F7DD81 /* CertMessage.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CertMessage.cxx; path = dum/CertMessage.cxx; sourceTree = "<group>"; };
 		12F79738086CBA1E00AF4EDF /* libresiprocate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libresiprocate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		509715AB18B62CB4005F5041 /* ares__close_sockets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares__close_sockets.c; path = ../rutil/dns/ares/ares__close_sockets.c; sourceTree = "<group>"; };
+		509715AC18B62CB4005F5041 /* ares__get_hostent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares__get_hostent.c; path = ../rutil/dns/ares/ares__get_hostent.c; sourceTree = "<group>"; };
+		509715AD18B62CB4005F5041 /* ares__read_line.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares__read_line.c; path = ../rutil/dns/ares/ares__read_line.c; sourceTree = "<group>"; };
+		509715AE18B62CB4005F5041 /* ares_destroy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_destroy.c; path = ../rutil/dns/ares/ares_destroy.c; sourceTree = "<group>"; };
+		509715AF18B62CB4005F5041 /* ares_expand_name.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_expand_name.c; path = ../rutil/dns/ares/ares_expand_name.c; sourceTree = "<group>"; };
+		509715B018B62CB4005F5041 /* ares_fds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_fds.c; path = ../rutil/dns/ares/ares_fds.c; sourceTree = "<group>"; };
+		509715B118B62CB4005F5041 /* ares_free_errmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_free_errmem.c; path = ../rutil/dns/ares/ares_free_errmem.c; sourceTree = "<group>"; };
+		509715B218B62CB4005F5041 /* ares_free_hostent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_free_hostent.c; path = ../rutil/dns/ares/ares_free_hostent.c; sourceTree = "<group>"; };
+		509715B318B62CB4005F5041 /* ares_free_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_free_string.c; path = ../rutil/dns/ares/ares_free_string.c; sourceTree = "<group>"; };
+		509715B418B62CB4005F5041 /* ares_gethostbyaddr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_gethostbyaddr.c; path = ../rutil/dns/ares/ares_gethostbyaddr.c; sourceTree = "<group>"; };
+		509715B518B62CB4005F5041 /* ares_gethostbyname.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_gethostbyname.c; path = ../rutil/dns/ares/ares_gethostbyname.c; sourceTree = "<group>"; };
+		509715B618B62CB4005F5041 /* ares_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_init.c; path = ../rutil/dns/ares/ares_init.c; sourceTree = "<group>"; };
+		509715B718B62CB4005F5041 /* ares_local.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_local.c; path = ../rutil/dns/ares/ares_local.c; sourceTree = "<group>"; };
+		509715B818B62CB4005F5041 /* ares_mkquery.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_mkquery.c; path = ../rutil/dns/ares/ares_mkquery.c; sourceTree = "<group>"; };
+		509715B918B62CB4005F5041 /* ares_process.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_process.c; path = ../rutil/dns/ares/ares_process.c; sourceTree = "<group>"; };
+		509715BA18B62CB4005F5041 /* ares_query.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_query.c; path = ../rutil/dns/ares/ares_query.c; sourceTree = "<group>"; };
+		509715BB18B62CB4005F5041 /* ares_search.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_search.c; path = ../rutil/dns/ares/ares_search.c; sourceTree = "<group>"; };
+		509715BC18B62CB4005F5041 /* ares_send.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_send.c; path = ../rutil/dns/ares/ares_send.c; sourceTree = "<group>"; };
+		509715BD18B62CB4005F5041 /* ares_strerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_strerror.c; path = ../rutil/dns/ares/ares_strerror.c; sourceTree = "<group>"; };
+		509715BE18B62CB4005F5041 /* ares_timeout.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares_timeout.c; path = ../rutil/dns/ares/ares_timeout.c; sourceTree = "<group>"; };
 		D2AAC06F0554671400DB518D /* libares.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libares.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80A8D4812B2CA66002D37E0 /* FdPoll.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FdPoll.cxx; path = ../rutil/FdPoll.cxx; sourceTree = SOURCE_ROOT; };
 		F80A8D4912B2CA66002D37E0 /* FdPoll.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FdPoll.hxx; path = ../rutil/FdPoll.hxx; sourceTree = SOURCE_ROOT; };
@@ -1009,10 +997,6 @@
 		F8DB1D1E0C56B9B800853E27 /* UsageUseException.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = UsageUseException.hxx; path = dum/UsageUseException.hxx; sourceTree = "<group>"; };
 		F8DB1D1F0C56B9B800853E27 /* UserAuthInfo.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = UserAuthInfo.hxx; path = dum/UserAuthInfo.hxx; sourceTree = "<group>"; };
 		F8DB1D200C56B9B800853E27 /* UserProfile.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = UserProfile.hxx; path = dum/UserProfile.hxx; sourceTree = "<group>"; };
-		F8DB1D890C56B9EA00853E27 /* ares_compat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ares_compat.h; path = ../contrib/ares/ares_compat.h; sourceTree = SOURCE_ROOT; };
-		F8DB1D8A0C56B9EA00853E27 /* ares_dns.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ares_dns.h; path = ../contrib/ares/ares_dns.h; sourceTree = SOURCE_ROOT; };
-		F8DB1D8B0C56B9EA00853E27 /* ares_local.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ares_local.h; path = ../contrib/ares/ares_local.h; sourceTree = SOURCE_ROOT; };
-		F8DB1D8C0C56B9EA00853E27 /* ares_private.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ares_private.h; path = ../contrib/ares/ares_private.h; sourceTree = SOURCE_ROOT; };
 		F8DB1D920C56CE1500853E27 /* AbstractFifo.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = AbstractFifo.hxx; path = ../rutil/AbstractFifo.hxx; sourceTree = SOURCE_ROOT; };
 		F8DB1D930C56CE1500853E27 /* AsyncID.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = AsyncID.hxx; path = ../rutil/AsyncID.hxx; sourceTree = SOURCE_ROOT; };
 		F8DB1D940C56CE1500853E27 /* BaseException.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = BaseException.hxx; path = ../rutil/BaseException.hxx; sourceTree = SOURCE_ROOT; };
@@ -1187,8 +1171,6 @@
 		F8DB1E8B0C56CE9800853E27 /* Security.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = Security.hxx; path = stack/ssl/Security.hxx; sourceTree = "<group>"; };
 		F8DB1E8C0C56CE9800853E27 /* SecurityAttributes.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SecurityAttributes.hxx; path = stack/SecurityAttributes.hxx; sourceTree = "<group>"; };
 		F8DB1E8D0C56CE9800853E27 /* SecurityTypes.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SecurityTypes.hxx; path = stack/SecurityTypes.hxx; sourceTree = "<group>"; };
-		F8DB1E8E0C56CE9800853E27 /* SelectInterruptor.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SelectInterruptor.cxx; path = stack/SelectInterruptor.cxx; sourceTree = "<group>"; };
-		F8DB1E8F0C56CE9800853E27 /* SelectInterruptor.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SelectInterruptor.hxx; path = stack/SelectInterruptor.hxx; sourceTree = "<group>"; };
 		F8DB1E900C56CE9800853E27 /* SendData.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SendData.hxx; path = stack/SendData.hxx; sourceTree = "<group>"; };
 		F8DB1E910C56CE9800853E27 /* SERNonceHelper.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SERNonceHelper.cxx; path = stack/SERNonceHelper.cxx; sourceTree = "<group>"; };
 		F8DB1E920C56CE9800853E27 /* SERNonceHelper.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = SERNonceHelper.hxx; path = stack/SERNonceHelper.hxx; sourceTree = "<group>"; };
@@ -1245,8 +1227,6 @@
 		F8DB1EC50C56CE9800853E27 /* WarningCategory.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = WarningCategory.hxx; path = stack/WarningCategory.hxx; sourceTree = "<group>"; };
 		F8DB1EC80C56CE9800853E27 /* X509Contents.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = X509Contents.cxx; path = stack/X509Contents.cxx; sourceTree = "<group>"; };
 		F8DB1EC90C56CE9800853E27 /* X509Contents.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = X509Contents.hxx; path = stack/X509Contents.hxx; sourceTree = "<group>"; };
-		F8DB1ECA0C56CE9800853E27 /* XMLCursor.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = XMLCursor.cxx; path = stack/XMLCursor.cxx; sourceTree = "<group>"; };
-		F8DB1ECB0C56CE9800853E27 /* XMLCursor.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = XMLCursor.hxx; path = stack/XMLCursor.hxx; sourceTree = "<group>"; };
 		F8DB1F790C56CEEC00853E27 /* Stun.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Stun.cxx; path = ../rutil/stun/Stun.cxx; sourceTree = SOURCE_ROOT; };
 		F8DB1F7A0C56CEEC00853E27 /* Stun.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = Stun.hxx; path = ../rutil/stun/Stun.hxx; sourceTree = SOURCE_ROOT; };
 		F8DB1F7B0C56CEEC00853E27 /* Udp.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Udp.cxx; path = ../rutil/stun/Udp.cxx; sourceTree = SOURCE_ROOT; };
@@ -1330,32 +1310,26 @@
 		08FB77ACFE841707C02AAC07 /* ares */ = {
 			isa = PBXGroup;
 			children = (
-				124D789C086CC36600BCA5A9 /* ares__close_sockets.c */,
-				124D789D086CC36600BCA5A9 /* ares__get_hostent.c */,
-				124D789E086CC36600BCA5A9 /* ares__read_line.c */,
-				F8DB1D890C56B9EA00853E27 /* ares_compat.h */,
-				124D789F086CC36600BCA5A9 /* ares_destroy.c */,
-				F8DB1D8A0C56B9EA00853E27 /* ares_dns.h */,
-				124D78A0086CC36600BCA5A9 /* ares_expand_name.c */,
-				124D78A1086CC36600BCA5A9 /* ares_fds.c */,
-				124D78A2086CC36600BCA5A9 /* ares_free_errmem.c */,
-				124D78A3086CC36600BCA5A9 /* ares_free_hostent.c */,
-				124D78A4086CC36600BCA5A9 /* ares_free_string.c */,
-				124D78A5086CC36600BCA5A9 /* ares_gethostbyaddr.c */,
-				124D78A6086CC36600BCA5A9 /* ares_gethostbyname.c */,
-				124D78A7086CC36600BCA5A9 /* ares_init.c */,
-				124D78A8086CC36600BCA5A9 /* ares_local.c */,
-				F8DB1D8B0C56B9EA00853E27 /* ares_local.h */,
-				124D78A9086CC36600BCA5A9 /* ares_mkquery.c */,
-				124D78AA086CC36600BCA5A9 /* ares_parse_a_reply.c */,
-				124D78AB086CC36600BCA5A9 /* ares_parse_ptr_reply.c */,
-				F8DB1D8C0C56B9EA00853E27 /* ares_private.h */,
-				124D78AC086CC36600BCA5A9 /* ares_process.c */,
-				124D78AD086CC36600BCA5A9 /* ares_query.c */,
-				124D78AE086CC36600BCA5A9 /* ares_search.c */,
-				124D78AF086CC36600BCA5A9 /* ares_send.c */,
-				124D78B0086CC36600BCA5A9 /* ares_strerror.c */,
-				124D78B1086CC36600BCA5A9 /* ares_timeout.c */,
+				509715AB18B62CB4005F5041 /* ares__close_sockets.c */,
+				509715AC18B62CB4005F5041 /* ares__get_hostent.c */,
+				509715AD18B62CB4005F5041 /* ares__read_line.c */,
+				509715AE18B62CB4005F5041 /* ares_destroy.c */,
+				509715AF18B62CB4005F5041 /* ares_expand_name.c */,
+				509715B018B62CB4005F5041 /* ares_fds.c */,
+				509715B118B62CB4005F5041 /* ares_free_errmem.c */,
+				509715B218B62CB4005F5041 /* ares_free_hostent.c */,
+				509715B318B62CB4005F5041 /* ares_free_string.c */,
+				509715B418B62CB4005F5041 /* ares_gethostbyaddr.c */,
+				509715B518B62CB4005F5041 /* ares_gethostbyname.c */,
+				509715B618B62CB4005F5041 /* ares_init.c */,
+				509715B718B62CB4005F5041 /* ares_local.c */,
+				509715B818B62CB4005F5041 /* ares_mkquery.c */,
+				509715B918B62CB4005F5041 /* ares_process.c */,
+				509715BA18B62CB4005F5041 /* ares_query.c */,
+				509715BB18B62CB4005F5041 /* ares_search.c */,
+				509715BC18B62CB4005F5041 /* ares_send.c */,
+				509715BD18B62CB4005F5041 /* ares_strerror.c */,
+				509715BE18B62CB4005F5041 /* ares_timeout.c */,
 			);
 			name = ares;
 			sourceTree = "<group>";
@@ -1772,8 +1746,6 @@
 				124D790A086CC3CE00BCA5A9 /* SecurityAttributes.cxx */,
 				F8DB1E8C0C56CE9800853E27 /* SecurityAttributes.hxx */,
 				F8DB1E8D0C56CE9800853E27 /* SecurityTypes.hxx */,
-				F8DB1E8E0C56CE9800853E27 /* SelectInterruptor.cxx */,
-				F8DB1E8F0C56CE9800853E27 /* SelectInterruptor.hxx */,
 				F8DB1E900C56CE9800853E27 /* SendData.hxx */,
 				F8DB1E910C56CE9800853E27 /* SERNonceHelper.cxx */,
 				F8DB1E920C56CE9800853E27 /* SERNonceHelper.hxx */,
@@ -1863,8 +1835,6 @@
 				F8DB1EC50C56CE9800853E27 /* WarningCategory.hxx */,
 				F8DB1EC80C56CE9800853E27 /* X509Contents.cxx */,
 				F8DB1EC90C56CE9800853E27 /* X509Contents.hxx */,
-				F8DB1ECA0C56CE9800853E27 /* XMLCursor.cxx */,
-				F8DB1ECB0C56CE9800853E27 /* XMLCursor.hxx */,
 			);
 			name = resip;
 			sourceTree = "<group>";
@@ -2236,7 +2206,6 @@
 				F8DB1F370C56CE9800853E27 /* Security.hxx in Headers */,
 				F8DB1F380C56CE9800853E27 /* SecurityAttributes.hxx in Headers */,
 				F8DB1F390C56CE9800853E27 /* SecurityTypes.hxx in Headers */,
-				F8DB1F3B0C56CE9800853E27 /* SelectInterruptor.hxx in Headers */,
 				F8DB1F3C0C56CE9800853E27 /* SendData.hxx in Headers */,
 				F8DB1F3E0C56CE9800853E27 /* SERNonceHelper.hxx in Headers */,
 				F8DB1D780C56B9B800853E27 /* ServerAuthManager.hxx in Headers */,
@@ -2318,7 +2287,6 @@
 				F8DB1DF30C56CE1500853E27 /* vthread.hxx in Headers */,
 				F8DB1F710C56CE9800853E27 /* WarningCategory.hxx in Headers */,
 				F8DB1F750C56CE9800853E27 /* X509Contents.hxx in Headers */,
-				F8DB1F770C56CE9800853E27 /* XMLCursor.hxx in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2326,10 +2294,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DB1D8E0C56B9EA00853E27 /* ares_compat.h in Headers */,
-				F8DB1D8F0C56B9EA00853E27 /* ares_dns.h in Headers */,
-				F8DB1D900C56B9EA00853E27 /* ares_local.h in Headers */,
-				F8DB1D910C56B9EA00853E27 /* ares_private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2393,6 +2357,8 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 12F7971F086CB6D700AF4EDF /* Build configuration list for PBXProject "sip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -2609,7 +2575,6 @@
 				124D7968086CC3CE00BCA5A9 /* SdpContents.cxx in Sources */,
 				124D7969086CC3CE00BCA5A9 /* Security.cxx in Sources */,
 				124D796A086CC3CE00BCA5A9 /* SecurityAttributes.cxx in Sources */,
-				F8DB1F3A0C56CE9800853E27 /* SelectInterruptor.cxx in Sources */,
 				F8DB1F3D0C56CE9800853E27 /* SERNonceHelper.cxx in Sources */,
 				124D7A1C086CC68200BCA5A9 /* ServerAuthManager.cxx in Sources */,
 				124D7A1D086CC68200BCA5A9 /* ServerInviteSession.cxx in Sources */,
@@ -2676,7 +2641,6 @@
 				124D7A5E086CC69300BCA5A9 /* vmd5.cxx in Sources */,
 				124D7989086CC3CE00BCA5A9 /* WarningCategory.cxx in Sources */,
 				F8DB1F740C56CE9800853E27 /* X509Contents.cxx in Sources */,
-				F8DB1F760C56CE9800853E27 /* XMLCursor.cxx in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2684,28 +2648,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				124D78B2086CC36600BCA5A9 /* ares__close_sockets.c in Sources */,
-				124D78B3086CC36600BCA5A9 /* ares__get_hostent.c in Sources */,
-				124D78B4086CC36600BCA5A9 /* ares__read_line.c in Sources */,
-				124D78B5086CC36600BCA5A9 /* ares_destroy.c in Sources */,
-				124D78B6086CC36600BCA5A9 /* ares_expand_name.c in Sources */,
-				124D78B7086CC36600BCA5A9 /* ares_fds.c in Sources */,
-				124D78B8086CC36600BCA5A9 /* ares_free_errmem.c in Sources */,
-				124D78B9086CC36600BCA5A9 /* ares_free_hostent.c in Sources */,
-				124D78BA086CC36600BCA5A9 /* ares_free_string.c in Sources */,
-				124D78BB086CC36600BCA5A9 /* ares_gethostbyaddr.c in Sources */,
-				124D78BC086CC36600BCA5A9 /* ares_gethostbyname.c in Sources */,
-				124D78BD086CC36600BCA5A9 /* ares_init.c in Sources */,
-				124D78BE086CC36600BCA5A9 /* ares_local.c in Sources */,
-				124D78BF086CC36600BCA5A9 /* ares_mkquery.c in Sources */,
-				124D78C0086CC36600BCA5A9 /* ares_parse_a_reply.c in Sources */,
-				124D78C1086CC36600BCA5A9 /* ares_parse_ptr_reply.c in Sources */,
-				124D78C2086CC36600BCA5A9 /* ares_process.c in Sources */,
-				124D78C3086CC36600BCA5A9 /* ares_query.c in Sources */,
-				124D78C4086CC36600BCA5A9 /* ares_search.c in Sources */,
-				124D78C5086CC36600BCA5A9 /* ares_send.c in Sources */,
-				124D78C6086CC36600BCA5A9 /* ares_strerror.c in Sources */,
-				124D78C7086CC36600BCA5A9 /* ares_timeout.c in Sources */,
+				509715C418B62CB4005F5041 /* ares_fds.c in Sources */,
+				509715D118B62CB4005F5041 /* ares_strerror.c in Sources */,
+				509715BF18B62CB4005F5041 /* ares__close_sockets.c in Sources */,
+				509715CA18B62CB4005F5041 /* ares_init.c in Sources */,
+				509715C018B62CB4005F5041 /* ares__get_hostent.c in Sources */,
+				509715C118B62CB4005F5041 /* ares__read_line.c in Sources */,
+				509715C718B62CB4005F5041 /* ares_free_string.c in Sources */,
+				509715C918B62CB4005F5041 /* ares_gethostbyname.c in Sources */,
+				509715C618B62CB4005F5041 /* ares_free_hostent.c in Sources */,
+				509715C318B62CB4005F5041 /* ares_expand_name.c in Sources */,
+				509715CD18B62CB4005F5041 /* ares_process.c in Sources */,
+				509715CC18B62CB4005F5041 /* ares_mkquery.c in Sources */,
+				509715D218B62CB4005F5041 /* ares_timeout.c in Sources */,
+				509715CF18B62CB4005F5041 /* ares_search.c in Sources */,
+				509715C818B62CB4005F5041 /* ares_gethostbyaddr.c in Sources */,
+				509715C218B62CB4005F5041 /* ares_destroy.c in Sources */,
+				509715D018B62CB4005F5041 /* ares_send.c in Sources */,
+				509715CE18B62CB4005F5041 /* ares_query.c in Sources */,
+				509715C518B62CB4005F5041 /* ares_free_errmem.c in Sources */,
+				509715CB18B62CB4005F5041 /* ares_local.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2764,9 +2726,8 @@
 					"USE_IPV6=1",
 					"USE_ARES=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares ../contrib/openssl/";
 			};
 			name = Debug;
 		};
@@ -2780,9 +2741,8 @@
 					"USE_IPV6=1",
 					"USE_ARES=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares ../contrib/openssl/";
 			};
 			name = Release;
 		};
@@ -2844,9 +2804,8 @@
 					"USE_ARES=1",
 					"USE_SSL=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares ../contrib/openssl/";
 			};
 			name = "SSL-Debug";
 		};
@@ -2893,9 +2852,8 @@
 					"USE_ARES=1",
 					"USE_SSL=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares ../contrib/openssl/";
 			};
 			name = "SSL-Release";
 		};
