@@ -2340,6 +2340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F79734086CBA1E00AF4EDF /* Build configuration list for PBXNativeTarget "resiprocate" */;
 			buildPhases = (
+				50E37DEB18BCBA2200AABE53 /* Run Script */,
 				12F79730086CBA1E00AF4EDF /* Headers */,
 				12F79731086CBA1E00AF4EDF /* Sources */,
 				12F79732086CBA1E00AF4EDF /* Frameworks */,
@@ -2393,6 +2394,8 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 12F7971F086CB6D700AF4EDF /* Build configuration list for PBXProject "sip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -2414,6 +2417,24 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50E37DEB18BCBA2200AABE53 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -d $SRCROOT/../contrib/openssl ]; then\n    mkdir -p $SRCROOT/../contrib/openssl\n    pushd $SRCROOT/../contrib/openssl\n    ln -s /usr/include/openssl openssl\n    popd\nfi";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12F79731086CBA1E00AF4EDF /* Sources */ = {
@@ -2756,7 +2777,7 @@
 		12F79720086CB6D700AF4EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2765,15 +2786,15 @@
 					"USE_ARES=1",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
 			};
 			name = Debug;
 		};
 		12F79721086CB6D700AF4EDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2781,8 +2802,8 @@
 					"USE_ARES=1",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
 			};
 			name = Release;
 		};
@@ -2835,7 +2856,7 @@
 		F8F4ED62133D351F0000D69D /* SSL-Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2845,8 +2866,8 @@
 					"USE_SSL=1",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
 			};
 			name = "SSL-Debug";
 		};
@@ -2885,7 +2906,7 @@
 		F8F4ED66133D35220000D69D /* SSL-Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2894,8 +2915,8 @@
 					"USE_SSL=1",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx10.5;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
 			};
 			name = "SSL-Release";
 		};
