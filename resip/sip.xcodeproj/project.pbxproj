@@ -2786,9 +2786,9 @@
 					"USE_ARES=1",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -2804,6 +2804,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -2867,6 +2868,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
+				VALID_ARCHS = armv7;
 			};
 			name = "SSL-Debug";
 		};
@@ -2915,6 +2917,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
+				VALID_ARCHS = armv7;
 			};
 			name = "SSL-Release";
 		};
