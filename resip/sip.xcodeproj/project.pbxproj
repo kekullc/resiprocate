@@ -2785,8 +2785,8 @@
 					"USE_IPV6=1",
 					"USE_ARES=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
 				VALID_ARCHS = armv7;
 			};
@@ -2801,8 +2801,8 @@
 					"USE_IPV6=1",
 					"USE_ARES=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
 				VALID_ARCHS = armv7;
 			};
@@ -2865,8 +2865,8 @@
 					"USE_ARES=1",
 					"USE_SSL=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
 				VALID_ARCHS = armv7;
 			};
@@ -2914,8 +2914,8 @@
 					"USE_ARES=1",
 					"USE_SSL=1",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
 				VALID_ARCHS = armv7;
 			};
