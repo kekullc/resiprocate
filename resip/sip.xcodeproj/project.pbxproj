@@ -204,6 +204,26 @@
 		12BF59390895D5E600F7DD81 /* EncryptionManager.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF59380895D5E600F7DD81 /* EncryptionManager.cxx */; };
 		12BF593C0895D5FF00F7DD81 /* DumDecrypted.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF593A0895D5FF00F7DD81 /* DumDecrypted.cxx */; };
 		12BF59580895D7B800F7DD81 /* CertMessage.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF59570895D7B800F7DD81 /* CertMessage.cxx */; };
+		5074F45D18C8894F006268CC /* WsConnectionBase.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F45B18C8894F006268CC /* WsConnectionBase.cxx */; };
+		5074F45E18C8894F006268CC /* WsConnectionBase.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F45C18C8894F006268CC /* WsConnectionBase.hxx */; };
+		5074F46118C8896B006268CC /* WsBaseTransport.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F45F18C8896B006268CC /* WsBaseTransport.cxx */; };
+		5074F46218C8896B006268CC /* WsBaseTransport.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F46018C8896B006268CC /* WsBaseTransport.hxx */; };
+		5074F46518C8899A006268CC /* WsFrameExtractor.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F46318C8899A006268CC /* WsFrameExtractor.cxx */; };
+		5074F46618C8899A006268CC /* WsFrameExtractor.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F46418C8899A006268CC /* WsFrameExtractor.hxx */; };
+		5074F46918C88A21006268CC /* Sha1.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F46718C88A21006268CC /* Sha1.cxx */; };
+		5074F46A18C88A21006268CC /* Sha1.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F46818C88A21006268CC /* Sha1.hxx */; };
+		5074F46D18C88AA0006268CC /* Cookie.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F46B18C88AA0006268CC /* Cookie.cxx */; };
+		5074F46E18C88AA0006268CC /* Cookie.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F46C18C88AA0006268CC /* Cookie.hxx */; };
+		5074F47118C88B04006268CC /* SelectInterruptor.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F46F18C88B04006268CC /* SelectInterruptor.cxx */; };
+		5074F47218C88B04006268CC /* SelectInterruptor.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F47018C88B04006268CC /* SelectInterruptor.hxx */; };
+		5074F47518C88BB2006268CC /* WsCookieContext.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F47318C88BB2006268CC /* WsCookieContext.cxx */; };
+		5074F47618C88BB2006268CC /* WsCookieContext.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F47418C88BB2006268CC /* WsCookieContext.hxx */; };
+		5074F47918C88BCC006268CC /* WsTransport.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F47718C88BCC006268CC /* WsTransport.cxx */; };
+		5074F47A18C88BCC006268CC /* WsTransport.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F47818C88BCC006268CC /* WsTransport.hxx */; };
+		5074F47D18C88BF7006268CC /* WsConnection.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F47B18C88BF7006268CC /* WsConnection.cxx */; };
+		5074F47E18C88BF7006268CC /* WsConnection.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F47C18C88BF7006268CC /* WsConnection.hxx */; };
+		5074F48118C88C47006268CC /* PoolBase.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5074F47F18C88C47006268CC /* PoolBase.cxx */; };
+		5074F48218C88C47006268CC /* PoolBase.hxx in Headers */ = {isa = PBXBuildFile; fileRef = 5074F48018C88C47006268CC /* PoolBase.hxx */; };
 		509715BF18B62CB4005F5041 /* ares__close_sockets.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715AB18B62CB4005F5041 /* ares__close_sockets.c */; };
 		509715C018B62CB4005F5041 /* ares__get_hostent.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715AC18B62CB4005F5041 /* ares__get_hostent.c */; };
 		509715C118B62CB4005F5041 /* ares__read_line.c in Sources */ = {isa = PBXBuildFile; fileRef = 509715AD18B62CB4005F5041 /* ares__read_line.c */; };
@@ -833,6 +853,26 @@
 		12BF593A0895D5FF00F7DD81 /* DumDecrypted.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DumDecrypted.cxx; path = dum/DumDecrypted.cxx; sourceTree = "<group>"; };
 		12BF59570895D7B800F7DD81 /* CertMessage.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CertMessage.cxx; path = dum/CertMessage.cxx; sourceTree = "<group>"; };
 		12F79738086CBA1E00AF4EDF /* libresiprocate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libresiprocate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5074F45B18C8894F006268CC /* WsConnectionBase.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsConnectionBase.cxx; path = stack/WsConnectionBase.cxx; sourceTree = "<group>"; };
+		5074F45C18C8894F006268CC /* WsConnectionBase.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsConnectionBase.hxx; path = stack/WsConnectionBase.hxx; sourceTree = "<group>"; };
+		5074F45F18C8896B006268CC /* WsBaseTransport.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsBaseTransport.cxx; path = stack/WsBaseTransport.cxx; sourceTree = "<group>"; };
+		5074F46018C8896B006268CC /* WsBaseTransport.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsBaseTransport.hxx; path = stack/WsBaseTransport.hxx; sourceTree = "<group>"; };
+		5074F46318C8899A006268CC /* WsFrameExtractor.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsFrameExtractor.cxx; path = stack/WsFrameExtractor.cxx; sourceTree = "<group>"; };
+		5074F46418C8899A006268CC /* WsFrameExtractor.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsFrameExtractor.hxx; path = stack/WsFrameExtractor.hxx; sourceTree = "<group>"; };
+		5074F46718C88A21006268CC /* Sha1.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sha1.cxx; path = ../rutil/Sha1.cxx; sourceTree = "<group>"; };
+		5074F46818C88A21006268CC /* Sha1.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Sha1.hxx; path = ../rutil/Sha1.hxx; sourceTree = "<group>"; };
+		5074F46B18C88AA0006268CC /* Cookie.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Cookie.cxx; path = stack/Cookie.cxx; sourceTree = "<group>"; };
+		5074F46C18C88AA0006268CC /* Cookie.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Cookie.hxx; path = stack/Cookie.hxx; sourceTree = "<group>"; };
+		5074F46F18C88B04006268CC /* SelectInterruptor.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SelectInterruptor.cxx; path = ../rutil/SelectInterruptor.cxx; sourceTree = "<group>"; };
+		5074F47018C88B04006268CC /* SelectInterruptor.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SelectInterruptor.hxx; path = ../rutil/SelectInterruptor.hxx; sourceTree = "<group>"; };
+		5074F47318C88BB2006268CC /* WsCookieContext.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsCookieContext.cxx; path = stack/WsCookieContext.cxx; sourceTree = "<group>"; };
+		5074F47418C88BB2006268CC /* WsCookieContext.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsCookieContext.hxx; path = stack/WsCookieContext.hxx; sourceTree = "<group>"; };
+		5074F47718C88BCC006268CC /* WsTransport.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsTransport.cxx; path = stack/WsTransport.cxx; sourceTree = "<group>"; };
+		5074F47818C88BCC006268CC /* WsTransport.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsTransport.hxx; path = stack/WsTransport.hxx; sourceTree = "<group>"; };
+		5074F47B18C88BF7006268CC /* WsConnection.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WsConnection.cxx; path = stack/WsConnection.cxx; sourceTree = "<group>"; };
+		5074F47C18C88BF7006268CC /* WsConnection.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = WsConnection.hxx; path = stack/WsConnection.hxx; sourceTree = "<group>"; };
+		5074F47F18C88C47006268CC /* PoolBase.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PoolBase.cxx; path = ../rutil/PoolBase.cxx; sourceTree = "<group>"; };
+		5074F48018C88C47006268CC /* PoolBase.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PoolBase.hxx; path = ../rutil/PoolBase.hxx; sourceTree = "<group>"; };
 		509715AB18B62CB4005F5041 /* ares__close_sockets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares__close_sockets.c; path = ../rutil/dns/ares/ares__close_sockets.c; sourceTree = "<group>"; };
 		509715AC18B62CB4005F5041 /* ares__get_hostent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares__get_hostent.c; path = ../rutil/dns/ares/ares__get_hostent.c; sourceTree = "<group>"; };
 		509715AD18B62CB4005F5041 /* ares__read_line.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ares__read_line.c; path = ../rutil/dns/ares/ares__read_line.c; sourceTree = "<group>"; };
@@ -1562,6 +1602,20 @@
 		12F7983E086CBBEC00AF4EDF /* resip */ = {
 			isa = PBXGroup;
 			children = (
+				5074F47718C88BCC006268CC /* WsTransport.cxx */,
+				5074F47818C88BCC006268CC /* WsTransport.hxx */,
+				5074F47B18C88BF7006268CC /* WsConnection.cxx */,
+				5074F47C18C88BF7006268CC /* WsConnection.hxx */,
+				5074F47318C88BB2006268CC /* WsCookieContext.cxx */,
+				5074F47418C88BB2006268CC /* WsCookieContext.hxx */,
+				5074F46B18C88AA0006268CC /* Cookie.cxx */,
+				5074F46C18C88AA0006268CC /* Cookie.hxx */,
+				5074F46318C8899A006268CC /* WsFrameExtractor.cxx */,
+				5074F46418C8899A006268CC /* WsFrameExtractor.hxx */,
+				5074F45B18C8894F006268CC /* WsConnectionBase.cxx */,
+				5074F45C18C8894F006268CC /* WsConnectionBase.hxx */,
+				5074F45F18C8896B006268CC /* WsBaseTransport.cxx */,
+				5074F46018C8896B006268CC /* WsBaseTransport.hxx */,
 				F8A057D3124D52BA00112774 /* AbandonServerTransaction.hxx */,
 				F8DB1E1C0C56CE9800853E27 /* Aor.cxx */,
 				F8DB1E1D0C56CE9800853E27 /* Aor.hxx */,
@@ -1842,6 +1896,10 @@
 		F8DB1C440C56B50E00853E27 /* rutil */ = {
 			isa = PBXGroup;
 			children = (
+				5074F47F18C88C47006268CC /* PoolBase.cxx */,
+				5074F48018C88C47006268CC /* PoolBase.hxx */,
+				5074F46F18C88B04006268CC /* SelectInterruptor.cxx */,
+				5074F47018C88B04006268CC /* SelectInterruptor.hxx */,
 				124D7A29086CC69300BCA5A9 /* AbstractFifo.cxx */,
 				F8DB1D920C56CE1500853E27 /* AbstractFifo.hxx */,
 				F8DB1D930C56CE1500853E27 /* AsyncID.hxx */,
@@ -1907,6 +1965,8 @@
 				F8C76C9A1243CCFF0076CFF8 /* resipfaststreams.hxx */,
 				124D7A3A086CC69300BCA5A9 /* RWMutex.cxx */,
 				F8DB1DB40C56CE1500853E27 /* RWMutex.hxx */,
+				5074F46718C88A21006268CC /* Sha1.cxx */,
+				5074F46818C88A21006268CC /* Sha1.hxx */,
 				F8C76CAA1243CD2B0076CFF8 /* SHA1Stream.cxx */,
 				F8DB1DB50C56CE1500853E27 /* SHA1Stream.hxx */,
 				F8DB1DB60C56CE1500853E27 /* SharedCount.hxx */,
@@ -1971,6 +2031,7 @@
 				F8DB1ECD0C56CE9800853E27 /* Aor.hxx in Headers */,
 				F8DB1ECE0C56CE9800853E27 /* ApiCheck.hxx in Headers */,
 				F8DB1ECF0C56CE9800853E27 /* ApiCheckList.hxx in Headers */,
+				5074F47A18C88BCC006268CC /* WsTransport.hxx in Headers */,
 				F8DB1D210C56B9B800853E27 /* AppDialog.hxx in Headers */,
 				F8DB1D220C56B9B800853E27 /* AppDialogSet.hxx in Headers */,
 				F8DB1D230C56B9B800853E27 /* AppDialogSetFactory.hxx in Headers */,
@@ -2003,6 +2064,7 @@
 				F8DB1D310C56B9B800853E27 /* ClientSubscriptionFunctor.hxx in Headers */,
 				F8DB1DC70C56CE1500853E27 /* Coders.hxx in Headers */,
 				F8DB1DC80C56CE1500853E27 /* compat.hxx in Headers */,
+				5074F46218C8896B006268CC /* WsBaseTransport.hxx in Headers */,
 				F8DB1EDB0C56CE9800853E27 /* Compression.hxx in Headers */,
 				F8DB1DC90C56CE1500853E27 /* Condition.hxx in Headers */,
 				F8DB1EDC0C56CE9800853E27 /* Connection.hxx in Headers */,
@@ -2026,6 +2088,7 @@
 				F8DB1D350C56B9B800853E27 /* DestroyUsage.hxx in Headers */,
 				F8DB1D360C56B9B800853E27 /* Dialog.hxx in Headers */,
 				F8DB1D370C56B9B800853E27 /* DialogEventHandler.hxx in Headers */,
+				5074F47E18C88BF7006268CC /* WsConnection.hxx in Headers */,
 				F8A057F1124D52DE00112774 /* DialogEventInfo.hxx in Headers */,
 				F8A057F3124D52DE00112774 /* DialogEventStateManager.hxx in Headers */,
 				F8DB1D380C56B9B800853E27 /* DialogId.hxx in Headers */,
@@ -2065,6 +2128,7 @@
 				F8DB1D4C0C56B9B800853E27 /* EncryptionRequest.hxx in Headers */,
 				F8DB1D4D0C56B9B800853E27 /* EventDispatcher.hxx in Headers */,
 				F8F4ED79133D36380000D69D /* EventStackThread.hxx in Headers */,
+				5074F47218C88B04006268CC /* SelectInterruptor.hxx in Headers */,
 				F8A057DE124D52BA00112774 /* ExistsOrDataParameter.hxx in Headers */,
 				F8DB1EF00C56CE9800853E27 /* ExistsParameter.hxx in Headers */,
 				F8DB1EF10C56CE9800853E27 /* ExpiresCategory.hxx in Headers */,
@@ -2171,6 +2235,7 @@
 				F8DB1F2A0C56CE9800853E27 /* PlainContents.hxx in Headers */,
 				F8DB1DE20C56CE1500853E27 /* Poll.hxx in Headers */,
 				F8DB1D6D0C56B9B800853E27 /* Postable.hxx in Headers */,
+				5074F45E18C8894F006268CC /* WsConnectionBase.hxx in Headers */,
 				F8A057E2124D52BA00112774 /* PrivacyCategory.hxx in Headers */,
 				F8DB1D6E0C56B9B800853E27 /* Profile.hxx in Headers */,
 				F8DB1D6F0C56B9B800853E27 /* PublicationCreator.hxx in Headers */,
@@ -2187,6 +2252,7 @@
 				F8DB1D710C56B9B800853E27 /* RedirectHandler.hxx in Headers */,
 				F8DB1D720C56B9B800853E27 /* RedirectManager.hxx in Headers */,
 				F8DB1D730C56B9B800853E27 /* RefCountedDestroyer.hxx in Headers */,
+				5074F46618C8899A006268CC /* WsFrameExtractor.hxx in Headers */,
 				F8DB1D740C56B9B800853E27 /* RegistrationCreator.hxx in Headers */,
 				F8DB1D750C56B9B800853E27 /* RegistrationHandler.hxx in Headers */,
 				F8DB1D760C56B9B800853E27 /* RegistrationPersistenceManager.hxx in Headers */,
@@ -2195,6 +2261,7 @@
 				F8F4ED7F133D365D0000D69D /* RequestValidationHandler.hxx in Headers */,
 				F8C76CA61243CCFF0076CFF8 /* resipfaststreams.hxx in Headers */,
 				F8DB1F340C56CE9800853E27 /* Rlmi.hxx in Headers */,
+				5074F46E18C88AA0006268CC /* Cookie.hxx in Headers */,
 				F8DB1F350C56CE9800853E27 /* RportParameter.hxx in Headers */,
 				F8DB1E170C56CE3C00853E27 /* RRCache.hxx in Headers */,
 				F8DB1E180C56CE3C00853E27 /* RRFactory.hxx in Headers */,
@@ -2235,11 +2302,13 @@
 				F8DB1D800C56B9B800853E27 /* SubscriptionCreator.hxx in Headers */,
 				F8DB1D810C56B9B800853E27 /* SubscriptionHandler.hxx in Headers */,
 				F8DB1D820C56B9B800853E27 /* SubscriptionPersistenceManager.hxx in Headers */,
+				5074F47618C88BB2006268CC /* WsCookieContext.hxx in Headers */,
 				F8DB1D830C56B9B800853E27 /* SubscriptionState.hxx in Headers */,
 				F8DB1DEA0C56CE1500853E27 /* Subsystem.hxx in Headers */,
 				F8DB1F4B0C56CE9800853E27 /* Symbols.hxx in Headers */,
 				F8DB1DEB0C56CE1500853E27 /* SysLogBuf.hxx in Headers */,
 				F8DB1DEC0C56CE1500853E27 /* SysLogStream.hxx in Headers */,
+				5074F46A18C88A21006268CC /* Sha1.hxx in Headers */,
 				F8DB1D840C56B9B800853E27 /* TargetCommand.hxx in Headers */,
 				F8DB1F4C0C56CE9800853E27 /* TcpBaseTransport.hxx in Headers */,
 				F8DB1F4D0C56CE9800853E27 /* TcpConnection.hxx in Headers */,
@@ -2271,6 +2340,7 @@
 				F8DB1F640C56CE9800853E27 /* TupleMarkManager.hxx in Headers */,
 				F8DB1F650C56CE9800853E27 /* TuSelector.hxx in Headers */,
 				F8DB1F800C56CEEC00853E27 /* Udp.hxx in Headers */,
+				5074F48218C88C47006268CC /* PoolBase.hxx in Headers */,
 				F8DB1F660C56CE9800853E27 /* UdpTransport.hxx in Headers */,
 				F8DB1F680C56CE9800853E27 /* UInt32Category.hxx in Headers */,
 				F8DB1F6A0C56CE9800853E27 /* UInt32Parameter.hxx in Headers */,
@@ -2432,9 +2502,11 @@
 				124D79FE086CC68200BCA5A9 /* ClientRegistration.cxx in Sources */,
 				124D79FF086CC68200BCA5A9 /* ClientSubscription.cxx in Sources */,
 				124D7A46086CC69300BCA5A9 /* Coders.cxx in Sources */,
+				5074F48118C88C47006268CC /* PoolBase.cxx in Sources */,
 				F8DB1EDA0C56CE9800853E27 /* Compression.cxx in Sources */,
 				124D7A47086CC69300BCA5A9 /* Condition.cxx in Sources */,
 				124D792F086CC3CE00BCA5A9 /* Connection.cxx in Sources */,
+				5074F46918C88A21006268CC /* Sha1.cxx in Sources */,
 				124D7930086CC3CE00BCA5A9 /* ConnectionBase.cxx in Sources */,
 				124D7931086CC3CE00BCA5A9 /* ConnectionManager.cxx in Sources */,
 				F8DB1D320C56B9B800853E27 /* ContactInstanceRecord.cxx in Sources */,
@@ -2447,8 +2519,10 @@
 				124D7935086CC3CE00BCA5A9 /* DataParameter.cxx in Sources */,
 				124D7A4A086CC69300BCA5A9 /* DataStream.cxx in Sources */,
 				124D7936086CC3CE00BCA5A9 /* DateCategory.cxx in Sources */,
+				5074F47D18C88BF7006268CC /* WsConnection.cxx in Sources */,
 				124D7A00086CC68200BCA5A9 /* DefaultServerReferHandler.cxx in Sources */,
 				F8DB1EE70C56CE9800853E27 /* DeprecatedDialog.cxx in Sources */,
+				5074F47518C88BB2006268CC /* WsCookieContext.cxx in Sources */,
 				124D7A01086CC68200BCA5A9 /* DestroyUsage.cxx in Sources */,
 				124D7A02086CC68200BCA5A9 /* Dialog.cxx in Sources */,
 				F8A057F0124D52DE00112774 /* DialogEventInfo.cxx in Sources */,
@@ -2457,6 +2531,7 @@
 				124D7A04086CC68200BCA5A9 /* DialogSet.cxx in Sources */,
 				124D7A05086CC68200BCA5A9 /* DialogSetId.cxx in Sources */,
 				124D7A06086CC68200BCA5A9 /* DialogUsage.cxx in Sources */,
+				5074F46D18C88AA0006268CC /* Cookie.cxx in Sources */,
 				124D7A07086CC68200BCA5A9 /* DialogUsageManager.cxx in Sources */,
 				F8C76C9F1243CCFF0076CFF8 /* DigestStream.cxx in Sources */,
 				124D79B2086CC67000BCA5A9 /* DnsAAAARecord.cxx in Sources */,
@@ -2471,6 +2546,7 @@
 				124D7A4B086CC69300BCA5A9 /* DnsUtil.cxx in Sources */,
 				F8DB1EEB0C56CE9800853E27 /* DtlsMessage.cxx in Sources */,
 				F8DB1EED0C56CE9800853E27 /* DtlsTransport.cxx in Sources */,
+				5074F46118C8896B006268CC /* WsBaseTransport.cxx in Sources */,
 				12BF593C0895D5FF00F7DD81 /* DumDecrypted.cxx in Sources */,
 				12396E3708A2F3C800C5ED5E /* DumFeature.cxx in Sources */,
 				123B4D4F089871C90049A5B9 /* DumFeatureChain.cxx in Sources */,
@@ -2545,6 +2621,7 @@
 				124D7956086CC3CE00BCA5A9 /* MultipartRelatedContents.cxx in Sources */,
 				124D7957086CC3CE00BCA5A9 /* MultipartSignedContents.cxx in Sources */,
 				124D7A51086CC69300BCA5A9 /* Mutex.cxx in Sources */,
+				5074F47918C88BCC006268CC /* WsTransport.cxx in Sources */,
 				124D7958086CC3CE00BCA5A9 /* NameAddr.cxx in Sources */,
 				124D7A14086CC68200BCA5A9 /* NetworkAssociation.cxx in Sources */,
 				F8DB1F190C56CE9800853E27 /* NonceHelper.cxx in Sources */,
@@ -2601,6 +2678,7 @@
 				124D7A1F086CC68200BCA5A9 /* ServerPagerMessage.cxx in Sources */,
 				124D7A20086CC68200BCA5A9 /* ServerPublication.cxx in Sources */,
 				124D7A21086CC68200BCA5A9 /* ServerRegistration.cxx in Sources */,
+				5074F47118C88B04006268CC /* SelectInterruptor.cxx in Sources */,
 				124D7A22086CC68200BCA5A9 /* ServerSubscription.cxx in Sources */,
 				F8C76CAC1243CD2B0076CFF8 /* SHA1Stream.cxx in Sources */,
 				124D796B086CC3CE00BCA5A9 /* SipFrag.cxx in Sources */,
@@ -2639,6 +2717,7 @@
 				124D797E086CC3CE00BCA5A9 /* TransactionMap.cxx in Sources */,
 				124D797F086CC3CE00BCA5A9 /* TransactionState.cxx in Sources */,
 				124D7980086CC3CE00BCA5A9 /* TransactionUser.cxx in Sources */,
+				5074F45D18C8894F006268CC /* WsConnectionBase.cxx in Sources */,
 				124D7981086CC3CE00BCA5A9 /* TransactionUserMessage.cxx in Sources */,
 				124D7982086CC3CE00BCA5A9 /* Transport.cxx in Sources */,
 				124EC468087217600017C8BB /* TransportFailure.cxx in Sources */,
@@ -2655,6 +2734,7 @@
 				124D7986086CC3CE00BCA5A9 /* UnknownParameter.cxx in Sources */,
 				124D7987086CC3CE00BCA5A9 /* Uri.cxx in Sources */,
 				124D7A27086CC68200BCA5A9 /* UserAuthInfo.cxx in Sources */,
+				5074F46518C8899A006268CC /* WsFrameExtractor.cxx in Sources */,
 				124D7A28086CC68200BCA5A9 /* UserProfile.cxx in Sources */,
 				124D7988086CC3CE00BCA5A9 /* Via.cxx in Sources */,
 				124D7A5E086CC69300BCA5A9 /* vmd5.cxx in Sources */,
@@ -2744,9 +2824,9 @@
 					"USE_IPV6=1",
 					"USE_ARES=1",
 				);
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares ../contrib/openssl/";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -2761,6 +2841,7 @@
 				);
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares ../contrib/openssl/";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -2823,6 +2904,7 @@
 				);
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares ../contrib/openssl/";
+				VALID_ARCHS = armv7;
 			};
 			name = "SSL-Debug";
 		};
@@ -2870,6 +2952,7 @@
 				);
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "../ ../rutil/dns/ares ../contrib/openssl/";
+				VALID_ARCHS = armv7;
 			};
 			name = "SSL-Release";
 		};
