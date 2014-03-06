@@ -191,25 +191,6 @@ class ResipFastOStream : public ResipBasicIOStream
          return *this;
       }
 
-      ResipFastOStream& operator<<(unsigned long ul)
-      {
-         if (!buf_)
-         {
-            return *this;
-         }
-
-         char buf[66];
-         ULTOA(ul,buf,66,10);
-
-         size_t count = strlen(buf);
-         if (buf_->writebuf(buf,count) < count)
-         {
-            good_ = false;
-         }
-
-         return *this;
-      }
-
       ResipFastOStream& operator<<(Int64 i64)
       {
          if (!buf_)

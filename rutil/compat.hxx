@@ -139,10 +139,10 @@ inline int c99_snprintf(char* str, size_t size, const char* format, ...)
 typedef unsigned char  UInt8;
 typedef unsigned short UInt16;
 typedef unsigned int   UInt32;
+#endif
 typedef char           Int8;
 typedef short          Int16;
 typedef int            Int32;
-#endif
 
 #if defined( WIN32 )
   typedef signed __int64   Int64;
