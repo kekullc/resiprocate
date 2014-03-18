@@ -186,7 +186,7 @@ Security::Security(const CipherList& cipherSuite) : BaseSecurity(cipherSuite)
    {
       mPath = env;
    }
-   mPath += "/.sipCerts/";
+   mPath += "/Documents/.sipCerts/";
 #endif
 }
 
