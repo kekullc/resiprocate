@@ -166,7 +166,7 @@ verifyCallback(int iInCode, X509_STORE_CTX *pInStore)
    if(!iInCode)
       ErrLog(<< "Error when verifying server's chain of certificates: " << X509_verify_cert_error_string(pInStore->error) << cBuf2 );
  
-   return iInCode;
+   return 1;
 }
  
 }
