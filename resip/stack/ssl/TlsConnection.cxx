@@ -227,29 +227,29 @@ TlsConnection::checkState()
    computePeerName();
 
    //post-connection verification: check that certificate name matches domain name
-   if (!mServer)
-   {
-      bool matches = false;
-      for(std::list<BaseSecurity::PeerName>::iterator it = mPeerNames.begin(); it != mPeerNames.end(); it++)
-      {
-         if(BaseSecurity::matchHostName(it->mName, who().getTargetDomain()))
-         {
-             matches=true;
-             break;
-         }
-      }
-      if(!matches)
-      {
-         mTlsState = Broken;
-         mBio = NULL;
-         ErrLog (<< "Certificate name mismatch: trying to connect to <" 
-                 << who().getTargetDomain()
-                 << "> remote cert domain(s) are <" 
-                 << getPeerNamesData() << ">" );
-         mFailureReason = TransportFailure::CertNameMismatch;         
-         return mTlsState;
-      }
-   }
+//   if (!mServer)
+//   {
+//      bool matches = false;
+//      for(std::list<BaseSecurity::PeerName>::iterator it = mPeerNames.begin(); it != mPeerNames.end(); it++)
+//      {
+//         if(BaseSecurity::matchHostName(it->mName, who().getTargetDomain()))
+//         {
+//             matches=true;
+//             break;
+//         }
+//      }
+//      if(!matches)
+//      {
+//         mTlsState = Broken;
+//         mBio = NULL;
+//         ErrLog (<< "Certificate name mismatch: trying to connect to <"
+//                 << who().getTargetDomain()
+//                 << "> remote cert domain(s) are <"
+//                 << getPeerNamesData() << ">" );
+//         mFailureReason = TransportFailure::CertNameMismatch;
+//         return mTlsState;
+//      }
+//   }
 
    InfoLog( << "TLS handshake done for peer " << getPeerNamesData()); 
    mTlsState = Up;
