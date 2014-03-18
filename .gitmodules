@@ -1,0 +1,3 @@
+[submodule "contrib/openssl"]
+	path = contrib/openssl
+	url = git@github.com:st3fan/ios-openssl.git

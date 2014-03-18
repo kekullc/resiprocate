@@ -70,7 +70,6 @@
 		124D7949086CC3CE00BCA5A9 /* InternalTransport.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78E9086CC3CE00BCA5A9 /* InternalTransport.cxx */; };
 		124D794A086CC3CE00BCA5A9 /* KeepAliveMessage.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78EA086CC3CE00BCA5A9 /* KeepAliveMessage.cxx */; };
 		124D794B086CC3CE00BCA5A9 /* LazyParser.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78EB086CC3CE00BCA5A9 /* LazyParser.cxx */; };
-		124D794C086CC3CE00BCA5A9 /* MacSecurity.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78EC086CC3CE00BCA5A9 /* MacSecurity.cxx */; };
 		124D794D086CC3CE00BCA5A9 /* Message.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78ED086CC3CE00BCA5A9 /* Message.cxx */; };
 		124D794E086CC3CE00BCA5A9 /* MessageFilterRule.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78EE086CC3CE00BCA5A9 /* MessageFilterRule.cxx */; };
 		124D794F086CC3CE00BCA5A9 /* MessageWaitingContents.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D78EF086CC3CE00BCA5A9 /* MessageWaitingContents.cxx */; };
@@ -226,6 +225,8 @@
 		12BF59390895D5E600F7DD81 /* EncryptionManager.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF59380895D5E600F7DD81 /* EncryptionManager.cxx */; };
 		12BF593C0895D5FF00F7DD81 /* DumDecrypted.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF593A0895D5FF00F7DD81 /* DumDecrypted.cxx */; };
 		12BF59580895D7B800F7DD81 /* CertMessage.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 12BF59570895D7B800F7DD81 /* CertMessage.cxx */; };
+		50A5025418D83649001AA46E /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A5025218D83649001AA46E /* libssl.a */; };
+		50A5025518D83649001AA46E /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A5025318D83649001AA46E /* libcrypto.a */; };
 		F80A8D4A12B2CA66002D37E0 /* FdPoll.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F80A8D4812B2CA66002D37E0 /* FdPoll.cxx */; };
 		F80A8D4B12B2CA66002D37E0 /* FdPoll.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F80A8D4912B2CA66002D37E0 /* FdPoll.hxx */; };
 		F8A057C7124D47D700112774 /* TcpConnection.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D7916086CC3CE00BCA5A9 /* TcpConnection.cxx */; };
@@ -499,7 +500,6 @@
 		F8DB1F060C56CE9800853E27 /* InvalidContents.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E560C56CE9800853E27 /* InvalidContents.hxx */; };
 		F8DB1F070C56CE9800853E27 /* KeepAliveMessage.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E570C56CE9800853E27 /* KeepAliveMessage.hxx */; };
 		F8DB1F080C56CE9800853E27 /* LazyParser.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E580C56CE9800853E27 /* LazyParser.hxx */; };
-		F8DB1F090C56CE9800853E27 /* MacSecurity.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E590C56CE9800853E27 /* MacSecurity.hxx */; };
 		F8DB1F0A0C56CE9800853E27 /* makeCert.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F8DB1E5A0C56CE9800853E27 /* makeCert.cxx */; };
 		F8DB1F0B0C56CE9800853E27 /* MarkListener.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E5B0C56CE9800853E27 /* MarkListener.hxx */; };
 		F8DB1F0C0C56CE9800853E27 /* Message.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8DB1E5C0C56CE9800853E27 /* Message.hxx */; };
@@ -614,8 +614,6 @@
 		F8DB1FB80C56D4B000853E27 /* libares.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC06F0554671400DB518D /* libares.a */; };
 		F8DB20730C56D75B00853E27 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DB20720C56D75B00853E27 /* SystemConfiguration.framework */; };
 		F8DB20880C56D77100853E27 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DB20720C56D75B00853E27 /* SystemConfiguration.framework */; };
-		F8DB20A00C56DAD700853E27 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DB209C0C56DAC300853E27 /* libcrypto.dylib */; };
-		F8DB20A10C56DAD700853E27 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DB209D0C56DAC300853E27 /* libssl.dylib */; };
 		F8F4ED4D133D2F000000D69D /* TlsConnection.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 124D791A086CC3CE00BCA5A9 /* TlsConnection.cxx */; };
 		F8F4ED77133D36380000D69D /* EnableFlowTimer.hxx in Headers */ = {isa = PBXBuildFile; fileRef = F8F4ED72133D36380000D69D /* EnableFlowTimer.hxx */; };
 		F8F4ED78133D36380000D69D /* EventStackThread.cxx in Sources */ = {isa = PBXBuildFile; fileRef = F8F4ED73133D36380000D69D /* EventStackThread.cxx */; };
@@ -865,6 +863,8 @@
 		12BF593A0895D5FF00F7DD81 /* DumDecrypted.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = DumDecrypted.cxx; path = dum/DumDecrypted.cxx; sourceTree = "<group>"; };
 		12BF59570895D7B800F7DD81 /* CertMessage.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CertMessage.cxx; path = dum/CertMessage.cxx; sourceTree = "<group>"; };
 		12F79738086CBA1E00AF4EDF /* libresiprocate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libresiprocate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A5025218D83649001AA46E /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../contrib/openssl/lib/libssl.a; sourceTree = "<group>"; };
+		50A5025318D83649001AA46E /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../contrib/openssl/lib/libcrypto.a; sourceTree = "<group>"; };
 		D2AAC06F0554671400DB518D /* libares.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libares.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80A8D4812B2CA66002D37E0 /* FdPoll.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FdPoll.cxx; path = ../rutil/FdPoll.cxx; sourceTree = SOURCE_ROOT; };
 		F80A8D4912B2CA66002D37E0 /* FdPoll.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FdPoll.hxx; path = ../rutil/FdPoll.hxx; sourceTree = SOURCE_ROOT; };
@@ -1252,8 +1252,6 @@
 		F8DB1F7B0C56CEEC00853E27 /* Udp.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Udp.cxx; path = ../rutil/stun/Udp.cxx; sourceTree = SOURCE_ROOT; };
 		F8DB1F7C0C56CEEC00853E27 /* Udp.hxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = Udp.hxx; path = ../rutil/stun/Udp.hxx; sourceTree = SOURCE_ROOT; };
 		F8DB20720C56D75B00853E27 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
-		F8DB209C0C56DAC300853E27 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = /usr/lib/libcrypto.dylib; sourceTree = "<absolute>"; };
-		F8DB209D0C56DAC300853E27 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = /usr/lib/libssl.dylib; sourceTree = "<absolute>"; };
 		F8F4ED72133D36380000D69D /* EnableFlowTimer.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = EnableFlowTimer.hxx; path = stack/EnableFlowTimer.hxx; sourceTree = "<group>"; };
 		F8F4ED73133D36380000D69D /* EventStackThread.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EventStackThread.cxx; path = stack/EventStackThread.cxx; sourceTree = "<group>"; };
 		F8F4ED74133D36380000D69D /* EventStackThread.hxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = EventStackThread.hxx; path = stack/EventStackThread.hxx; sourceTree = "<group>"; };
@@ -1267,6 +1265,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A5025418D83649001AA46E /* libssl.a in Frameworks */,
+				50A5025518D83649001AA46E /* libcrypto.a in Frameworks */,
 				F8DB1FB80C56D4B000853E27 /* libares.a in Frameworks */,
 				F8DB20730C56D75B00853E27 /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -1283,8 +1283,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DB20A00C56DAD700853E27 /* libcrypto.dylib in Frameworks */,
-				F8DB20A10C56DAD700853E27 /* libssl.dylib in Frameworks */,
 				F8DB20880C56D77100853E27 /* SystemConfiguration.framework in Frameworks */,
 				F8DB1FB40C56D49A00853E27 /* libresiprocate.a in Frameworks */,
 			);
@@ -1320,8 +1318,8 @@
 		0867D69AFE84028FC02AAC07 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				F8DB209C0C56DAC300853E27 /* libcrypto.dylib */,
-				F8DB209D0C56DAC300853E27 /* libssl.dylib */,
+				50A5025218D83649001AA46E /* libssl.a */,
+				50A5025318D83649001AA46E /* libcrypto.a */,
 				F8DB20720C56D75B00853E27 /* SystemConfiguration.framework */,
 			);
 			name = Libraries;
@@ -2155,7 +2153,6 @@
 				F8DB1DD90C56CE1500853E27 /* Lockable.hxx in Headers */,
 				F8DB1DDA0C56CE1500853E27 /* Log.hxx in Headers */,
 				F8DB1DDB0C56CE1500853E27 /* Logger.hxx in Headers */,
-				F8DB1F090C56CE9800853E27 /* MacSecurity.hxx in Headers */,
 				F8DB1F0B0C56CE9800853E27 /* MarkListener.hxx in Headers */,
 				F8DB1D620C56B9B800853E27 /* MasterProfile.hxx in Headers */,
 				F8DB1DDC0C56CE1500853E27 /* MD5Stream.hxx in Headers */,
@@ -2340,7 +2337,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F79734086CBA1E00AF4EDF /* Build configuration list for PBXNativeTarget "resiprocate" */;
 			buildPhases = (
-				50E37DEB18BCBA2200AABE53 /* Run Script */,
 				12F79730086CBA1E00AF4EDF /* Headers */,
 				12F79731086CBA1E00AF4EDF /* Sources */,
 				12F79732086CBA1E00AF4EDF /* Frameworks */,
@@ -2418,24 +2414,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		50E37DEB18BCBA2200AABE53 /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [ ! -d $SRCROOT/../contrib/openssl ]; then\n    mkdir -p $SRCROOT/../contrib/openssl\n    pushd $SRCROOT/../contrib/openssl\n    ln -s /usr/include/openssl openssl\n    popd\nfi";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12F79731086CBA1E00AF4EDF /* Sources */ = {
@@ -2564,7 +2542,6 @@
 				F8DB1E140C56CE3C00853E27 /* LocalDns.cxx in Sources */,
 				124D7A4D086CC69300BCA5A9 /* Lock.cxx in Sources */,
 				124D7A4E086CC69300BCA5A9 /* Log.cxx in Sources */,
-				124D794C086CC3CE00BCA5A9 /* MacSecurity.cxx in Sources */,
 				F8DB1F0A0C56CE9800853E27 /* makeCert.cxx in Sources */,
 				124D7A13086CC68200BCA5A9 /* MasterProfile.cxx in Sources */,
 				124D7A50086CC69300BCA5A9 /* MD5Stream.cxx in Sources */,
@@ -2782,12 +2759,13 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"USE_IPV6=1",
+					"USE_IPV6=0",
 					"USE_ARES=1",
+					"USE_SSL=1",
 				);
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
+				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl/include";
 				VALID_ARCHS = armv7;
 			};
 			name = Debug;
@@ -2798,12 +2776,13 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"USE_IPV6=1",
+					"USE_IPV6=0",
 					"USE_ARES=1",
+					"USE_SSL=1",
 				);
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl";
+				USER_HEADER_SEARCH_PATHS = "../ ../contrib/ares ../contrib/openssl/include";
 				VALID_ARCHS = armv7;
 			};
 			name = Release;
@@ -2811,7 +2790,10 @@
 		12F79735086CBA1E00AF4EDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXCLUDED_SOURCE_FILE_NAMES = TlsConnection.cxx;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../contrib/openssl/lib",
+				);
 				PRODUCT_NAME = resiprocate;
 			};
 			name = Debug;
@@ -2819,7 +2801,10 @@
 		12F79736086CBA1E00AF4EDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				EXCLUDED_SOURCE_FILE_NAMES = TlsConnection.cxx;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../contrib/openssl/lib",
+				);
 				PRODUCT_NAME = resiprocate;
 			};
 			name = Release;
@@ -2884,6 +2869,10 @@
 		F8F4ED64133D351F0000D69D /* SSL-Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../contrib/openssl/lib",
+				);
 				PRODUCT_NAME = resiprocate;
 			};
 			name = "SSL-Debug";
@@ -2932,6 +2921,10 @@
 		F8F4ED68133D35220000D69D /* SSL-Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../contrib/openssl/lib",
+				);
 				PRODUCT_NAME = resiprocate;
 			};
 			name = "SSL-Release";
