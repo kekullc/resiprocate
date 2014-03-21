@@ -50,8 +50,13 @@
    // .amr. If you get linker or type conflicts around UInt32, then use this define
 #  if defined(RESIP_APPLE_USE_SYSTEM_TYPES)
 #     include <TargetConditionals.h>
-#     include <CoreServices/CoreServices.h>
+#     if !defined(TARGET_OS_IPHONE)
+#        include <CoreServices/CoreServices.h>
+#     else
+#        include <CFNetwork/CFNetwork.h>
+#     endif
 #  endif
+
 #  if !defined(MAC_OS_X_VERSION_MIN_REQUIRED) || MAC_OS_X_VERSION_MIN_REQUIRED > MAC_OS_X_VERSION_10_2
       // you don't include the SDK or you're running 10.3 or above
       // note: this will fail on 10.2 if you don't include the SDK
