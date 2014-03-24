@@ -24,7 +24,7 @@
 using namespace resip;
 
 unsigned long
-resip::Timer::T1 = 5000;
+resip::Timer::T1 = 500;
 
 unsigned long
 resip::Timer::T2 = 8 * T1;
