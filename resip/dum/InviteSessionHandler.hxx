@@ -118,7 +118,7 @@ class InviteSessionHandler
       virtual void onAnswer(InviteSessionHandle, const SipMessage& msg, const Contents&);
 
       /// called when an offer is received - must send an answer soon after this
-      virtual void onOffer(InviteSessionHandle, const SipMessage& msg, const SdpContents&)=0;      
+      virtual void onOffer(InviteSessionHandle, const SipMessage& msg, const SdpContents&, const Data&)=0;
       // You should only override the following method if genericOfferAnswer is true
       virtual void onOffer(InviteSessionHandle, const SipMessage& msg, const Contents&);      
 
