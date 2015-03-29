@@ -113,7 +113,7 @@ class InviteSessionHandler
 
       /// called when an answer is received - has nothing to do with user
       /// answering the call 
-      virtual void onAnswer(InviteSessionHandle, const SipMessage& msg, const SdpContents&)=0;
+      virtual void onAnswer(InviteSessionHandle, const SipMessage& msg, const SdpContents&, const Data&)=0;
       // You should only override the following method if genericOfferAnswer is true
       virtual void onAnswer(InviteSessionHandle, const SipMessage& msg, const Contents&);
 

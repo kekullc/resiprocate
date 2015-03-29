@@ -70,7 +70,10 @@ InviteSessionHandler::onAnswer(InviteSessionHandle h, const SipMessage& msg, con
    {
       const SdpContents* sdp = dynamic_cast<const SdpContents*>(&body);
       assert(sdp);
-      onAnswer(h, msg, *sdp);
+
+      const Data sdpOffer(sdp->getBodyData().c_str());
+
+      onAnswer(h, msg, *sdp, sdpOffer);
    }
 }
 
