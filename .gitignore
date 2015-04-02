@@ -85,6 +85,7 @@ resip/stack/test/testTypedef
 resip/stack/test/testUdp
 resip/stack/test/testUri
 resip/stack/test/testXMLCursor
+resip/sip.xcodeproj/xcuserdata/*
 
 rutil/test/*.log
 rutil/test/testLogger*.txt
