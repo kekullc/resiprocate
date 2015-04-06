@@ -106,3 +106,4 @@ rutil/test/testRandomThread
 rutil/test/testSHA1Stream
 rutil/test/testThreadIf
 
+resip/sip.xcodeproj/xcuserdata/*
